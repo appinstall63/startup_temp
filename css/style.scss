@@ -3,7 +3,19 @@
 
 
 
-
+.service{
+ .cnt{
+  background: #f2f2f2;
+  box-shadow: $sh1;
+  padding: 25px 0;
+  &:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
+  }
+ }
+}
 
 
 

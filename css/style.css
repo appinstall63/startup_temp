@@ -65,3 +65,16 @@ html {
 .btn {
   text-transform: capitalize;
 }
+
+.service .cnt {
+  background: #f2f2f2;
+  box-shadow: 0px 3px 10px red;
+  padding: 25px 0;
+}
+
+.service .cnt:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
+}
