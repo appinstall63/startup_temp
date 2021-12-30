@@ -203,3 +203,29 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.footer .down .icon {
+  display: flex;
+}
+
+.footer .down .icon a {
+  height: 50px;
+  width: 50px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer .down .icon a:hover {
+  background: none;
+  color: red;
+  border: 3px solid red;
+  cursor: pointer;
+  transition: 0.5s;
+}
