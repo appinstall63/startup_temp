@@ -163,3 +163,43 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.team .cnt {
+  background: #f2f2f3;
+  box-shadow: 0px 3px 10px green;
+  padding: 25px;
+}
+
+.team .cnt:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.team .cnt .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.team .cnt .icon a {
+  height: 50px;
+  width: 50px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.team .cnt .icon a:hover {
+  background: none;
+  color: red;
+  border: 3px solid red;
+  cursor: pointer;
+  transition: 0.5s;
+}

@@ -84,7 +84,29 @@ transition: 0.5s;
  }
 }
 
-
+.team{
+ .cnt{
+  background: $bg1;
+  box-shadow: $sh1;
+  padding: 25px;
+  &:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    a{
+     @include icon;
+     text-decoration: none;
+     margin-right: 5px;
+    }
+   
+  }
+ }
+}
 
 
 
