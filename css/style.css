@@ -150,3 +150,16 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.price .cnt {
+  background: #f2f2f3;
+  box-shadow: 0px 3px 10px green;
+  padding: 25px;
+}
+
+.price .cnt:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
+}
