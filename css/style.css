@@ -78,3 +78,29 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.footer .icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .icons a {
+  height: 50px;
+  width: 50px;
+  background: red;
+  border-radius: 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.footer .icons a:hover {
+  background: gold;
+  color: red;
+  cursor: pointer;
+  transition: 0.5s;
+}
