@@ -24,7 +24,22 @@
  }
 }
 
-
+.service{
+ .cnt{
+  background: $bg1;
+  box-shadow: $sh1;
+  padding: 25px;
+  &:hover{
+  transform: translateY(5px);
+  box-shadow: none;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+  .icon{
+  @include icon;
+  }
+ }
+}
 
 
 

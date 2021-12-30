@@ -13,7 +13,22 @@
 }
 
 
-
+@mixin icon {
+  height: 50px;
+  width: 50px;
+  background: red;
+  @include center();
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  &:hover{
+  background: none;
+  color: red;
+  border: 3px solid red;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+}
 
 
 

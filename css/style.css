@@ -86,3 +86,36 @@ html {
   right: 0;
   z-index: -1;
 }
+
+.service .cnt {
+  background: #f2f2f3;
+  box-shadow: 0px 3px 10px green;
+  padding: 25px;
+}
+
+.service .cnt:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.service .cnt .icon {
+  height: 50px;
+  width: 50px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.service .cnt .icon:hover {
+  background: none;
+  color: red;
+  border: 3px solid red;
+  cursor: pointer;
+  transition: 0.5s;
+}
