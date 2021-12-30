@@ -204,11 +204,12 @@ html {
   transition: 0.5s;
 }
 
-.footer .down .icon {
+.footer .icon {
   display: flex;
+  justify-content: center;
 }
 
-.footer .down .icon a {
+.footer .icon a {
   height: 50px;
   width: 50px;
   background: red;
@@ -222,7 +223,7 @@ html {
   margin-right: 15px;
 }
 
-.footer .down .icon a:hover {
+.footer .icon a:hover {
   background: none;
   color: red;
   border: 3px solid red;

@@ -110,15 +110,13 @@ transition: 0.5s;
 
 
 .footer{
- .down{
-  .icon{
-    display: flex;
-   a{
-    @include icon;
-    text-decoration: none;
-    margin-right: 15px;
-
-   }
+ .icon{
+  display: flex;
+  justify-content: center;
+  a{
+  @include icon;
+  text-decoration: none;
+  margin-right: 15px;
   }
  }
 }
