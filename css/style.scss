@@ -1,16 +1,28 @@
 @import 'scss/reset&debag';
 @import 'scss/global';
+@import 'scss/mix';
 
 
 
 
-
-
-
-
-
-
-
+.cover{
+ background:{
+  image:url(../img/cover.jpg);
+  repeat:no-repeat;
+  size:cover;
+  position:center;
+  attachment:fixed;
+ }
+ position: relative;
+ z-index: -2;
+ &::after{
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  @include zero;
+  z-index: -1;
+ }
+}
 
 
 
